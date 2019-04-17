@@ -101,6 +101,18 @@ table, table tr {
 	text-align: left;
 }
 
+.email{
+	display: inline-block;
+	font-size: 1.2em;
+	line-height: 1;
+	color: darkblue;
+	
+	max-width: 90%;
+	margin-left: auto;
+  	margin-right: auto;
+	text-align: left;
+}
+
 .entry-authors{
 	display: inline-block;
 	font-size: 1.2em;
