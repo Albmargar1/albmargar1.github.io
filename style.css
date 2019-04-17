@@ -58,7 +58,8 @@ table, table tr {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 25%;
+  max-width: 240px;
+  width: 100%;
   border-radius: 25px;
 }
 
