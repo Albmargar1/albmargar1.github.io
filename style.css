@@ -35,7 +35,8 @@ h3 {
 	font-weight: 300;
     color: rgba(13,139,67,1.00);
 	font-size: 1.5em;
-	margin-bottom: 0;
+	margin-bottom: 15px;
+	text-align: center;
 	
 	text-decoration-line: underline;
 	text-decoration-style: solid;
@@ -85,9 +86,9 @@ table, table tr {
 	line-height: 1.3;
 	font-weight: bold;
 	
-	margin-left: auto;
+	margin-left: 25px;
   	margin-right: auto;
-	text-align: justify;
+	text-align: left;
 	
 }
 
@@ -96,9 +97,9 @@ table, table tr {
 	font-size: 1.2em;
 	line-height: 1;
 	
-	margin-left: auto;
+	margin-left: 25px;
   	margin-right: auto;
-	text-align: justify;
+	text-align: left;
 }
 
 .email{
@@ -119,9 +120,9 @@ table, table tr {
 	line-height: 1;
 	font-style: italic;
 	
-	margin-left: auto;
+	margin-left: 25px;
   	margin-right: auto;
-	text-align: justify;
+	text-align: left;
 }
 
 .entry-foot{
@@ -129,9 +130,9 @@ table, table tr {
 	font-size: 0.9em;
 	font-weight: lighter;
 	
-	margin-left: auto;
+	margin-left: 25px;
   	margin-right: auto;
-	text-align: justify;
+	text-align: left;
 }
 
 .btn-group .button {
@@ -144,6 +145,7 @@ table, table tr {
   font-size: 1em;
   cursor: pointer;
   float: left;
+  margin-left: 25px;
 }
 
 .btn-group .button:hover {
@@ -181,4 +183,8 @@ table, table tr {
     margin-left: 0%;
 	vertical-align: middle;
 	text-align: justify;
+}
+
+.post-container{
+
 }
