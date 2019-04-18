@@ -171,9 +171,12 @@ table, table tr {
 	align-items:center;
 }
 .post-thumb img {
-    display: flex;
-	width: 100%;
-	max-width: 240px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 240px;
+  width: 100%;
+  border-radius: 25px;
 }
 .post-content {
     margin-left: 0%;
