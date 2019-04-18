@@ -93,7 +93,7 @@ table, table tr {
 
 .entry-body{
 	display: inline-block;
-	font-size: 1.5em;
+	font-size: 1.2em;
 	line-height: 1;
 	
 	margin-left: auto;
@@ -115,7 +115,7 @@ table, table tr {
 
 .entry-authors{
 	display: inline-block;
-	font-size: 1.2em;
+	font-size: 1.0em;
 	line-height: 1;
 	font-style: italic;
 	
@@ -126,7 +126,7 @@ table, table tr {
 
 .entry-foot{
 	display: inline-block;
-	font-size: 1.1em;
+	font-size: 0.9em;
 	font-weight: lighter;
 	
 	margin-left: auto;
@@ -166,15 +166,15 @@ table, table tr {
 }
 
 .post-container {
-    margin: 20px 20px 0 0;  
-    border: 5px solid #333;
     overflow: auto;
 }
 .post-thumb {
-    float: left;
+    float:left;
+	max-width: 30%;
 }
 .post-thumb img {
     display: block;
+	width: 100%;
 }
 .post-content {
     margin-left: 210px;
