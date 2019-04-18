@@ -68,7 +68,7 @@ table, table tr {
     margin-left: auto;
     margin-right: auto;
 	max-width: 100%;
-	max-height: 45%;
+	max-height: 35%;
 }
 
 .entry-img{
@@ -163,4 +163,25 @@ table, table tr {
 
 .icons:hover{
 	color: #E50039;
+}
+
+.post-container {
+    margin: 20px 20px 0 0;  
+    border: 5px solid #333;
+    overflow: auto;
+}
+.post-thumb {
+    float: left;
+}
+.post-thumb img {
+    display: block;
+}
+.post-content {
+    margin-left: 210px;
+	vertical-align: middle;
+	text-align: justify;
+}
+.post-title {
+    font-weight: bold;
+    font-size: 200%;
 }
