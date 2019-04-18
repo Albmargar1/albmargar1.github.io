@@ -165,23 +165,17 @@ table, table tr {
 	color: #E50039;
 }
 
-.post-container {
-    overflow: auto;
-}
 .post-thumb {
     float:left;
-	max-width: 30%;
+	width: 30%;
+	align-items:center;
 }
 .post-thumb img {
-    display: block;
+    display: flex;
 	width: 100%;
 }
 .post-content {
-    margin-left: 210px;
+    margin-left: 0%;
 	vertical-align: middle;
 	text-align: justify;
-}
-.post-title {
-    font-weight: bold;
-    font-size: 200%;
 }
