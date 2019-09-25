@@ -1,67 +1,25 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>Alberto Martín-Garrido</title>
-<meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1">
-<link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-
-<body>
-<div class = "box">
-  <section id="publications">
-    <h2>PUBLICATIONS</h2>
-    <div class="post-thumb"><img src="images/paper-ceig2018.png" alt="CEIG-2018"></div>
-    <div class="post-content">
-      <p><strong>Toward Estimation of Yarn-Level Cloth Simulation Models</strong><br>
-        Alberto Martín-Garrido, Eder Miguel and Miguel Ángel Otaduy<br>
-        CEIG 2018 - Short paper</p>
-      <div class="btn-group">
-        <button class="button" onclick="window.open('docs/ceig-estimation-yarn.pdf','_blank')">pdf</button>
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | Pruebas</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/Desktop.json", {onProgress: UnityProgress});
+    </script>
+  </head>
+  <body>
+    <div class="webgl-content">
+      <div id="unityContainer" style="width: 960px; height: 600px"></div>
+      <div class="footer">
+        <div class="webgl-logo"></div>
+        <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
+        <div class="title">Pruebas</div>
       </div>
     </div>
-    <br>
-    <br>
-  </section>
-  <section id="miscellaneous">
-    <section id="about">
-      <h2>ABOUT ME</h2>
-      <img src="images/AMG.png" alt="AMG" class="myphoto">
-      <p><strong>Hey! I'm Alberto,</strong> a mechanical engineer formed with passion in both simulation and graphics. I'm doing my Industrial PhD in <a href="http://www.seddi.com/">SEDDI</a> and <a href="http://mslab.es/">MSLAB</a>, advised by <a href="http://www.gmrv.es/~edermiguel/">Eder Miguel</a> and <a href="http://mslab.es/otaduy/"> Miguel Ángel Otaduy</a>. I'm focusing on making more realistic yarn-level cloth simulations. </p>
-    </section>
-    <h3>CAREER</h3>
-    <div class ="post-container">
-      <div class="post-thumb"><img src="images/Seddi.png" alt="seddi" style="width: 80%"></div>
-      <div class="post-content">
-        <p><strong>Seddi Labs</strong><br>
-          Researcher engineer<br>
-          March 2019 - Currently </p>
-        <br>
-      </div>
-    </div>
-    <div class ="post-container">
-      <div class="post-thumb"><img src="images/urjc.png" alt="urjc"></div>
-      <div class="post-content">
-          <p><strong>Universidad Rey Juan Carlos</strong><br>
-            Researcher<br>
-            September 2017 - March 2019</p>
-          <br>
-      </div>
-    </div>
-    <!--
-  <h3>Hobbies</h3>
-  <i class="fas fa-gamepad fa-sm"></i> Videogames <br>
-  <i class="fas fa-tree fa-lg"></i> Hiking <br>
-  <i class="fas fa-snowboarding fa-sm"></i> Snowboarding <br>
-  <i class="fas fa-utensil-spoon"></i> Cook delicious meals <br>
-  <i class="fas fa-dog"></i> Dogs <br>
-   --> 
-    <!--  No spam please -->
-    <h3>CONTACT</h3>
-    <span class="email"> <a HREF="mailto:
-&#097;&#108;&#098;&#101;&#114;&#116;&#111;&#046;&#109;&#097;&#114;&#116;&#105;&#110;&#103;&#064;&#117;&#114;&#106;&#099;&#046;&#101;&#115;" style="color: darkblue"> &#097;&#108;&#098;&#101;&#114;&#116;&#111;&#046;&#109;&#097;&#114;&#116;&#105;&#110;&#103;&#064;&#117;&#114;&#106;&#099;&#046;&#101;&#115; </a></span> </section>
-</div>
-</body>
+  </body>
 </html>
