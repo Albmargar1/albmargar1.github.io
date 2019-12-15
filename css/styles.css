@@ -71,7 +71,7 @@ body {
 @media (max-width: 1099px) {
   .navigation-column{
     width: 700px;
-    height: 15vh;
+    height: 30vh;
     margin: -30px auto 0px auto;
     position: relative;
   }
@@ -131,6 +131,7 @@ body {
   .nav-ul{
     position: absolute;
     bottom: 0;
+    right: 0;
     margin-block-start: 0;
     margin-block-end: 0;
   }
@@ -176,12 +177,23 @@ body {
 
 @media (max-width: 1099px) {
   #navigation-column-myPhoto{
-    display:none;
+    background: url('../images/AMG-200.png') no-repeat;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top:50px;
+    left:50px;
   }
   #name{
-    display:none;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
   }
   #titles{
-    display:none;
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    margin-bottom: 20px;
   }
 }
