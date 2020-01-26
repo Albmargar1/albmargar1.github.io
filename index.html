@@ -22,22 +22,90 @@
     </div>
 
     <ul class="nav-ul">
-      <li class="nav-item" id="nav-Home">
+      <!-- <li class="nav-item" id="nav-Home">
         <a href="#" class="nav-link"> Home </a>
+      </li> -->
+      <li class="nav-item" id="nav-Publications">
+        <a href="#Home-content" class="nav-link">Introduction</a>
       </li>
       <li class="nav-item" id="nav-Publications">
-        <a href="#" class="nav-link">Publications</a>
+        <a href="#Publications-content" class="nav-link">Publications</a>
       </li>
       <li class="nav-item" id="nav-Projects">
-        <a href="#" class="nav-link">Projects</a>
+        <a href="#Projects-content" class="nav-link">Projects</a>
       </li>
       <li class="nav-item" id="nav-Blog">
-        <a href="#" class="nav-link">Blog</a>
+        <a href="#Blog-content" class="nav-link">Blog</a>
       </li>
     </ul>
     </div>
 
     <div id="main-content">
-    </div>
 
+      <div id="Home-content" class="content">
+        <div class="myHeader">
+          About me
+        </div>
+
+        <div class = "Content-text">
+          <strong>Hey! I'm Alberto,</strong> a mechanical engineer formed with passion in both simulation and graphics.
+          I'm doing my Industrial PhD in <a href="http://www.seddi.com/">SEDDI</a> and
+          <a href="http://mslab.es/">MSLAB</a>, advised by
+          <a href="http://www.gmrv.es/~edermiguel/">Eder Miguel</a> and
+          <a href="http://mslab.es/otaduy/"> Miguel Ángel Otaduy</a>.
+          I'm focusing on making more realistic yarn-level cloth simulations. <br><br>
+
+          You can contact me via <span class="email">
+            <a HREF="mailto:&#097;&#108;&#098;&#101;&#114;&#116;&#111;&#109;&#103;&#101;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">
+              &#097;&#108;&#098;&#101;&#114;&#116;&#111;&#109;&#103;&#101;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109; </a></span>
+        </div>
+      </div>
+
+      <div id="Publications-content" class="content">
+        <div class="myHeader">
+          Publications
+        </div>
+
+        <div id="CEIG-2018" class="publication">
+          <div class="Publication-image"><img src="images/paper-ceig2018.png" alt="CEIG-2018"></div>
+          <div class="Publication-text">
+            <div class ="Publication-title"> Toward Estimation of Yarn-Level Cloth Simulation Models </div>
+            <div class ="Publication-authors"> Alberto Martín-Garrido, Eder Miguel and Miguel Ángel Otaduy </div>
+            <div class ="Publication-journal"> CEIG 2018 - Short paper </div>
+            <div class="btn-group">
+              <button class="button" onclick="window.open('docs/ceig-estimation-yarn.pdf','_blank')">pdf</button>
+              <a href="https://www.youtube.com/watch?v=0gkaHtzUYyA" target="_blank"><button class="button">video</button> </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div id="horizontal-line"></div> -->
+
+      </div> <!-- Publications content -->
+
+      <div id="Projects-content" class="content">
+        <div class="myHeader">
+          Projects
+        </div>
+
+        <div class = "Content-text">
+          <!-- This section includes some interactive applications using WebGL. Please, ensure your navigator is able to reproduce them. -->
+          Future section, working on: <br>
+          - Simulation framework using methods from the state of the art. <br>
+          - Procedural games involving physics. <br><br>
+
+          You can also see this webpage as a personal project :-)
+        </div>
+      </div>
+
+      <div id="Blog-content" class="content">
+        <div class="myHeader">
+          Blog
+        </div>
+        <div class = "Content-text">
+          I would like to have my own blog in the future with entries about my projects.
+        </div>
+
+      </div>
+    </div> <!-- Main content -->
   </body>
