@@ -35,22 +35,22 @@ body {
   }
 }
 
-@media (min-width: 731px) and (max-width:1099px) {
+@media (min-width: 731px) and (max-width:1249px) {
   #main-content{
     width: 700px;
-    height: 100vh;
+    height: 100%;
     margin: auto;
-    border-top: 2px solid black;
+    padding: 1px 40px 40px 40px;
   }
 }
 
-@media (max-width: 730px) {
+/*@media (max-width: 730px) {
   #main-content{
     width: 100%;
     height: 100vh;
     margin: auto;
   }
-}
+}*/
 
 p {
   text-indent: 20px;
@@ -77,24 +77,25 @@ p {
   }
 }
 
-@media (min-width: 731px) and (max-width:1099px) {
+@media (min-width: 731px) and (max-width:1249px) {
   .navigation-column{
     width: 700px;
     height: 200px;
     margin: -30px auto 0px auto;
+    padding: 1px 40px 40px 40px;
     position: relative;
     padding-top: 110px;
   }
 }
 
-@media (max-width: 730px) {
+/*@media (max-width: 730px) {
   .navigation-column{
     width: 100%;
     height: 400px;
     margin: -30px auto 0px auto;
     padding-top: 15px;
   }
-}
+}*/
 
 /* Section */
 
@@ -105,6 +106,7 @@ p {
 .nav-ul{
   list-style-type: none;
   padding-inline-start: 0px;
+  padding-right: 40px;
 }
 
 .navigation-column .nav-link{
@@ -136,7 +138,7 @@ p {
 
 }
 
-@media (min-width: 731px) and (max-width:1099px) {
+@media (min-width: 731px) and (max-width:1249px) {
   .nav-ul{
     position: absolute;
     bottom: 0;
@@ -151,12 +153,12 @@ p {
   }
 }
 
-@media (max-width: 731px) {
+/*@media (max-width: 731px) {
   .nav-link{
     text-align: center;
     display: block;
   }
-}
+}*/
 
 /* Profile */
 
@@ -170,14 +172,31 @@ p {
   text-align: center;
   font-weight: bold;
   color: black;
-  font-size: 20px;
+
 }
 
 #titles{
   text-align: center;
   color: black;
-  font-size: 18px;
   margin-bottom: 20px;
+}
+
+@media(min-width: 1250px){
+  #name{
+    font-size: 20px;
+  }
+  #titles{
+    font-size: 18px;
+  }
+}
+
+@media(min-width: 731px) and (max-width:1249px){
+  #name{
+    font-size: 30px;
+  }
+  #titles{
+    font-size: 22px;
+  }
 }
 
 
@@ -187,7 +206,7 @@ p {
   }
 }
 
-@media (min-width: 731px) and (max-width:1099px) {
+@media (min-width: 731px) and (max-width:1249px) {
   #navigation-column-myPhoto{
     position: absolute;
     top:60px;
@@ -203,12 +222,12 @@ p {
   }
 }
 
-@media (max-width: 730px) {
+/*@media (max-width: 730px) {
   #navigation-column-myPhoto{
     position: relative;
     margin: 0px auto 20px auto;
   }
-}
+}*/
 
 /* Publications */
 .Publications-content{
@@ -216,30 +235,23 @@ p {
 
 div.publication{
   padding-top: 15px;
-  overflow: auto;
 }
 
 div.Publication-text{
-  float: left;
   margin: auto;
   margin-top: 20px;
 }
 
 .Publication-title{
   font-weight: bold;
-  font-size: 21px;
-  padding: 1px 0px;
-  letter-spacing: 0.4px;
 }
 
 div .Publication-text .Publication-authors{
-  padding: 1px 0px;
   font-style: italic;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 div .Publication-text .Publication-journal{
-  padding: 1px 0px;
   color: grey;
 }
 
@@ -250,8 +262,6 @@ div.Publication-image{
 div.Publication-image img{
   width: 230px;
   height: auto;
-  float: left;
-  margin: 0px 30px 0px 15px;
 }
 
 .btn-group .button {
@@ -259,16 +269,53 @@ div.Publication-image img{
     border: 1px solid black;
     color: white;
     padding: 8px 15px;
-    margin-top: 5px;
-    margin-right: 5px;
-    text-align: center;
-    display: block;
+    margin-right: 10px;
     font-size: 1em;
-    cursor: pointer;
-    float: left;
 }
 .btn-group .button:hover {
     background-color: #E50039;
+}
+
+@media (min-width: 1250px) {
+  div.publication{
+    overflow: auto;
+  }
+
+  div.Publication-text{
+    float: left;
+  }
+
+  div.Publication-image img{
+    float: left;
+    margin: 0px 30px 0px 15px;
+  }
+
+  .btn-group .button {
+    text-align: center;
+    display: block;
+    cursor: pointer;
+    float: left;
+    margin-top: 10px;
+  }
+}
+
+@media (min-width: 731px) and (max-width:1249px) {
+  div.Publication-image{
+    text-align: center;
+  }
+  .Publication-title{
+    text-align: center;
+  }
+  div .Publication-text .Publication-authors{
+    text-align: center;
+  }
+  div .Publication-text .Publication-journal{
+    text-align: center;
+  }
+  .btn-group{
+    margin-top: 15px;
+    text-align: center;
+  }
 }
 
 /* Home content */
