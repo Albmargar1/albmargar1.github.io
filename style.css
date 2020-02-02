@@ -10,7 +10,7 @@ body {
     line-height: 1.5;
     text-align: justify;
     background-color: #ffffff;
-    background-image: url("images/fabric-wallpaper.png");	
+    background-image: url("images/fabric-wallpaper.png");
 }
 
 .box{
@@ -40,7 +40,7 @@ h3 {
     text-align: left;
     text-decoration-style: solid;
 }
-a {
+linkto {
     color: rgba(219,84,4,1.00);
     text-decoration: none;
 }
