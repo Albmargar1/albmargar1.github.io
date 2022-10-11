@@ -291,6 +291,13 @@ div.Publication-image img{
   height: 300px;
 }
 
+@media (max-width: 730px) {
+  div.Publication-image img{
+    width: auto;
+    height: 200px;
+  }
+  }
+
 .btn-group{
   margin-top: 15px;
   margin-bottom: 25px;
